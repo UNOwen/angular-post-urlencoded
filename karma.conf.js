@@ -14,8 +14,8 @@ module.exports = function(config) {
 		files: [
 			'bower_components/angular/angular.js',
 			'bower_components/angular-mocks/angular-mocks.js',
-			'postinterceptor.js',
-			'test/setup.js',
+			'src/*.js',
+			'test/*.js',
 			'test/unit/*.js'
 		],
 

@@ -2,12 +2,15 @@
   "name": "angular-post-interceptor",
   "version": "0.0.3",
   "main": [
-    "postinterceptor.js"
+    "src/postinterceptor.js"
   ],
   "ignore": [
     "**/.*",
-    "node_modules",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "package.json",
     "bower_components",
+    "node_modules",
     "test"
   ],
   "dependencies": {
