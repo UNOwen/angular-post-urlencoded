@@ -1,4 +1,4 @@
-# Angular POST interceptor
+# Angular POST interceptor [![Build Status](https://travis-ci.org/UNOwen/angular-post-interceptor.svg?branch=master)](https://travis-ci.org/UNOwen/angular-post-interceptor)
 
 Encodes POST requests to application/x-www-form-urlencoded format.
 
