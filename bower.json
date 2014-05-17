@@ -1,6 +1,6 @@
 {
   "name": "angular-post-interceptor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": [
     "postinterceptor.js"
   ],
