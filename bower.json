@@ -1,0 +1,15 @@
+{
+  "name": "angular-interceptors",
+  "version": "0.0.1",
+  "main": [
+    "postinterceptor.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": ">1.2.6"
+  }
+}
