@@ -10,7 +10,7 @@ conflict with angular resources, and does not require additional dependencies.
 1. Link script
 
 ```html
-<script src="bower_components/angular-post-interceptor/postinterceptor.js"></script>
+<script src="bower_components/angular-post-interceptor/src/postinterceptor.js"></script>
 ```
 
 2. Configure Angular to use interceptor
