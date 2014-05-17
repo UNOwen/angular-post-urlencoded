@@ -7,9 +7,17 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "components"
+    "components",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "angular": ">1.2.6"
-  }
+  },
+  "homepage": "https://github.com/UNOwen/angular-post-interceptor",
+  "authors": [
+    "Nikita Udovenko <github@shelke.org>"
+  ],
+  "license": "MIT"
 }
