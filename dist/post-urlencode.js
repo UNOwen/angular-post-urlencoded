@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('postInterceptor', [])
-.factory('postInterceptor', function ($q) {
+angular.module('http-post-urlencoded', [])
+.factory('postUrlencodeInterceptor', function ($q) {
 	var r20 = /%20/g,
 		rbracket = /\[\]$/;
 

@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Service: postInterceptor', function () {
+describe('Service: postUrlencodeInterceptor', function () {
 
 	beforeEach(module('main'));
 

@@ -1,13 +1,13 @@
 {
-  "name": "angular-post-interceptor",
+  "name": "angular-post-urlencoded",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UNOwen/angular-post-interceptor.git"
+    "url": "https://github.com/UNOwen/angular-post-urlencoded.git"
   },
   "licenses": [{
     "type": "MIT",
-    "url": "https://github.com/UNOwen/angular-post-interceptor/blob/master/LICENSE"
+    "url": "https://github.com/UNOwen/angular-post-urlencoded/blob/master/LICENSE"
   }],
   "dependencies": {},
   "devDependencies": {
@@ -27,6 +27,6 @@
     "test": "grunt test"
   },
   "main": [
-    "postinterceptor.js"
+    "dist/post-urlencode.js"
   ]
 }

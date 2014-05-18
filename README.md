@@ -1,4 +1,4 @@
-# Angular POST interceptor [![Build Status](https://travis-ci.org/UNOwen/angular-post-interceptor.svg?branch=master)](https://travis-ci.org/UNOwen/angular-post-interceptor)
+# Angular POST interceptor [![Build Status](https://travis-ci.org/UNOwen/angular-post-urlencoded.svg?branch=master)](https://travis-ci.org/UNOwen/angular-post-urlencoded)
 
 Encodes POST requests to application/x-www-form-urlencoded format.
 
@@ -10,14 +10,14 @@ conflict with angular resources, and does not require additional dependencies.
 1. Link script
 
 ```html
-<script src="bower_components/angular-post-interceptor/src/postinterceptor.js"></script>
+<script src="bower_components/angular-post-urlencoded/dist/post-urlencode.js"></script>
 ```
 
 2. Configure Angular to use interceptor
 
 ```js
-angular.module('main', ['postInterceptor'])
+angular.module('main', ['http-post-urlencoded'])
 .config(function interceptPOSTRequests($httpProvider) { // Proper post request data encoding
-	$httpProvider.interceptors.push('postInterceptor');
+	$httpProvider.interceptors.push('postUrlencodeInterceptor');
 })
 ```

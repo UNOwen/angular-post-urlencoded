@@ -1,8 +1,8 @@
 {
-  "name": "angular-post-interceptor",
+  "name": "angular-post-urlencoded",
   "version": "0.0.5",
   "main": [
-    "src/postinterceptor.js"
+    "dist/post-urlencode.js"
   ],
   "ignore": [
     "**/.*",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "angular-mocks": "~1.2.16"
   },
-  "homepage": "https://github.com/UNOwen/angular-post-interceptor",
+  "homepage": "https://github.com/UNOwen/angular-post-urlencoded",
   "authors": [
     "Nikita Udovenko <github@shelke.org>"
   ],
