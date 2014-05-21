@@ -1,6 +1,6 @@
 {
   "name": "angular-post-urlencoded",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": [
     "dist/post-urlencode.js"
   ],
@@ -14,7 +14,7 @@
     "test"
   ],
   "dependencies": {
-    "angular": ">1.2.6"
+    "angular": ">1.2.0"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.16"

@@ -59,15 +59,27 @@ angular.module('http-post-urlencoded', [])
 		return s.join('&').replace(r20, '+');
 	}
 
+	function isApplicable(config)
+	{
+		if (config.method !== 'POST') {
+			return false;
+		}
+		if (config.data === undefined || !angular.isObject(config.data)) {
+			return false;
+		}
+		if (FormData && config.data instanceof FormData) {
+			return false;
+		}
+		return true;
+	}
+
 	return {
 		request: function (config) {
 			config = config || $q.when(config);
-			if (config.method === 'POST') {
-				if (config.data !== undefined && angular.isObject(config.data) && String(config.data) !== '[object File]') {
-					config.headers = config.headers || {};
-					config.headers['Content-Type'] = 'application/x-www-form-urlencoded';
-					config.data = param(config.data);
-				}
+			if (isApplicable(config)) {
+				config.headers = config.headers || {};
+				config.headers['Content-Type'] = 'application/x-www-form-urlencoded';
+				config.data = param(config.data);
 			}
 			return config;
 		}
